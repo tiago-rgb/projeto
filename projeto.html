@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Project page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .container{
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+
+        width: 1000px;
+        margin: 100px 100px;
+        background-color: #eee;
+    }
+    .item1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .item2{
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .item3{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .item4{
+        grid-row-start: 4;
+        grid-row-end: 6;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .item5{
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+  </style>
+
+</head>
+<body>
+    <div class='container'>
+        <div class='item item--1'>
+            <div class='col-lg-12 text-center'>
+                <h2>Reliable, efficient delivery</h2> 
+                <h1>Powered by Technology</h1>
+                <p>Our Artificial Intelligence powered tools use millions of project</p>
+                <p>data points to ensure that your project is successful</p>
+            </div>
+        </div>
+         
+        <div class='item item--2'>
+            <div class='col-lg-12 text-center'>
+                <h3>Supervisor</h3>
+                <p>Monitors activity to identify project roadblocks</p>
+                <img src='./images1/icon-calculator.svg'>
+            </div>
+        </div>
+        
+        <div class='item item--3'>
+            <div class='col-lg-12 text-center'>
+                <h3>Team Builder</h3>
+                <p>Scans our talent network to create the optimal team for your project</p>
+                <img src='./images1/icon-karma.svg'>
+            </div>
+        </div>
+
+        <div class='item item--4'>
+            <div class='col-lg-12 text-center'>
+                <h3>Karma</h3>
+                <p>Regularly evaluates our talent to ensure quality</p>
+                <img src='./images1/icon-supervisor.svg'>
+            </div>
+        </div>
+
+        <div class='item item--5'>
+            <div class='col-lg-12 text-center'>
+                <h3>Calculator</h3>
+                <p>Uses data from past projects to provide better delivery estimates</p>
+                <img src='./images1/icon-team-builder.svg'>
+            </div>
+        </div>
+
+  <footer>
+    <p class="attribution">
+      Coded by <a href="#">Nome do Aluno</a>.
+    </p>
+  </footer>
+</body>
+</html>
